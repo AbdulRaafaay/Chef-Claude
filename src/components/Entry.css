@@ -1,0 +1,116 @@
+body{
+    background-color: #FAFAF8;
+}
+
+.formMain{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+    gap: 12px;
+    flex-grow: 1;
+}
+
+.formMain > button{
+    width: 183px;
+    height: 38px;
+    border-radius: 6px;
+    color: #FAFAF8;
+    background-color: #141413;
+    border: #141413;
+    cursor: pointer;
+}
+
+.formMain > input {
+    padding-left: 10px;
+    width: 399px;
+    height: 38px;
+    background-color: white;
+    border: 1px solid #D1D5DB;
+    border-radius: 6px;
+    color: #6B7280;
+}
+
+.ingredients{
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+}
+
+.ingredients > h1 {
+    font-family: 'Inter',sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 38px;
+    color: #141413;
+}
+
+.ingredients > ul{
+    color: #475467;
+    display: flex;
+    flex-direction: column;
+    gap: 10px
+}
+
+.recipe-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    width: 594px;
+    height: 109px;
+    background-color: #F0EFEB;
+    border-radius: 8px;
+    margin: 50px;
+}
+
+.recipe-container > button{
+    background-color: #D17557;
+    border-radius: 6px;
+    border: #D17557;
+    width: 115px;
+    height: 38px;
+    color: #FAFAF8;
+    cursor: pointer;
+}
+
+.toptext{
+    font-family: 'Inter',sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: #141413;
+    width: 340px;
+}
+
+.bottomtext{
+    font-family: 'Inter',sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #6B7280;
+    width: 340px;
+}
+
+.suggestedRecipe{
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+    width: 594px;
+    height: 1614px;
+}
+
+.suggestedRecipe > ul{
+    color: #475467;
+    display: flex;
+    flex-direction: column;
+    gap: 10px
+}
+
+.suggestedRecipe > ol{
+    color: #475467;
+    display: flex;
+    flex-direction: column;
+    gap: 10px
+}

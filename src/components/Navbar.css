@@ -1,0 +1,23 @@
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Inter',sans-serif;
+    gap: 10px;
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.10), 0px 1px 2px 0px rgba(0, 0, 0, 0.06);
+    padding: 24px 16px;
+    background-color: white;
+}
+
+.icon-chef{
+    width: 43px;
+    height: 52px;
+}
+
+.text-chef{
+    font-weight: 400;
+    font-family: 'Inter',sans-serif;
+    font-size: 32px;
+    line-height: 60px;
+    color: #141413;
+}
